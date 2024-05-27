@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > renders Default state 1`] = `
+<div>
+  <button
+    type="button"
+  >
+    Click me!!
+  </button>
+  <h1>
+    Default state
+  </h1>
+</div>
+`;
+
+exports[`Counter component > matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    type="button"
+  >
+    Click me!!
+  </button>
+  <h1>
+    Default state
+  </h1>
+</DocumentFragment>
+`;
